@@ -55,11 +55,11 @@ Simple and interactive console-based UI.
 
 💡 Grade Criteria (Example)
 Percentage (%)	Grade
-90–100	A
-80–89	B
-70–79	C
-60–69	D
-Below 60	F
+ 90–100	A
+ 80–89	B
+ 70–79	C
+ 60–69	D
+ Below 60	F
 
 (Note: Actual grade thresholds may be adjusted in the code logic.)
 
