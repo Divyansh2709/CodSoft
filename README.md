@@ -73,3 +73,86 @@ Beginners in Java who want to practice input handling, arithmetic operations, an
 
 Students building academic or utility-based Java programs.
 
+
+#TASK 03 : ATM INTERFACE
+
+This project is a console-based ATM interface simulation developed in Java, fulfilling the objectives outlined in Task 3: ATM Interface. It demonstrates the interaction between an ATM and a user's bank account using object-oriented principles.
+
+✅ Task Objectives Covered
+This project meets all the requirements listed in the task image:
+
+ATM Machine Class
+
+ATMMachine.java acts as the main interface controller.
+
+User Interface with Options
+
+Console-based UI offering:
+
+Check Balance
+
+Deposit Amount
+
+Withdraw Amount
+
+Exit
+
+Implemented Methods
+
+checkBalance(), deposit(amount), withdraw(amount) methods in BankAccount.java.
+
+Bank Account Class
+
+BankAccount.java stores:
+
+Account number
+
+PIN
+
+Balance
+
+ATM ↔ BankAccount Connection
+
+The ATM class verifies account details and calls bank account methods to access and modify balance.
+
+Input Validation
+
+Ensures sufficient balance during withdrawals
+
+Prevents depositing/withdrawing negative or zero amounts
+
+User Feedback Messages
+
+Displays messages for success/failure of each transaction with current balance.
+
+📂 File Structure
+
+├── BankAccount.java     // BankAccount class with balance and authentication logic
+├── ATMMachine.java      // ATM interface for user interactions
+├── README.md            // Project overview
+
+🧠 Core Java Concepts Used
+Classes & Objects
+
+Encapsulation
+
+Method abstraction
+
+Conditionals & Loops
+
+Basic input handling with Scanner
+
+🖥️ Sample Output
+
+Welcome to the ATM!
+Enter your account number: 12345
+Enter your PIN: 1234
+
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Exit
+Enter your choice: 2
+Enter amount to deposit: 1000
+Deposit successful. New balance: ₹6000.0
+
