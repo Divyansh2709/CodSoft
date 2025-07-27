@@ -41,10 +41,10 @@ This project is ideal for:
 
 .
 
-🧮 Grade Calculator (Java)
+### 🧮 Grade Calculator (Java)
 This is a simple Grade Calculator application written in Java. It allows students to enter marks for different subjects and calculates the average score and corresponding grade.
 
-📌 Features
+### 📌 Features
 Takes input for multiple subject marks.
 
 Calculates the total and average percentage.
@@ -53,7 +53,7 @@ Assigns a letter grade based on the average score.
 
 Simple and interactive console-based UI.
 
-💡 Grade Criteria (Example)
+### 💡 Grade Criteria (Example)
 Percentage (%)	Grade
  90–100	A
  80–89	B
@@ -63,12 +63,12 @@ Percentage (%)	Grade
 
 (Note: Actual grade thresholds may be adjusted in the code logic.)
 
-🛠️ Technologies Used
+### 🛠️ Technologies Used
 Java (Core Java)
 
 Java Util Library (Scanner)
 
-🎯 Ideal For
+### 🎯 Ideal For
 Beginners in Java who want to practice input handling, arithmetic operations, and conditional logic.
 
 Students building academic or utility-based Java programs.
@@ -78,60 +78,57 @@ Students building academic or utility-based Java programs.
 
 This project is a console-based ATM interface simulation developed in Java, fulfilling the objectives outlined in Task 3: ATM Interface. It demonstrates the interaction between an ATM and a user's bank account using object-oriented principles.
 
-✅ Task Objectives Covered
-This project meets all the requirements listed in the task image:
+### ✅ Task Objectives Covered:
 
-ATM Machine Class
+1. ATM Machine Class
 
-ATMMachine.java acts as the main interface controller.
+   >ATMMachine.java acts as the main interface controller.
 
-User Interface with Options
+2. User Interface with Options
 
-Console-based UI offering:
+ > Console-based UI offering:
 
-Check Balance
+     >Check Balance
 
-Deposit Amount
+      >Deposit Amount
 
-Withdraw Amount
+       >Withdraw Amount
 
-Exit
+        >Exit
 
-Implemented Methods
+3. Implemented Methods
 
-checkBalance(), deposit(amount), withdraw(amount) methods in BankAccount.java.
+   >checkBalance(), deposit(amount), withdraw(amount) methods in BankAccount.java.
 
-Bank Account Class
+4. Bank Account Class
 
-BankAccount.java stores:
+ >BankAccount.java stores:
 
-Account number
+     >Account number
 
-PIN
+      >Balance
 
-Balance
+5. ATM ↔ BankAccount Connection
 
-ATM ↔ BankAccount Connection
+    >The ATM class verifies account details and calls bank account methods to access and modify balance.
 
-The ATM class verifies account details and calls bank account methods to access and modify balance.
+6. Input Validation
 
-Input Validation
+     >Ensures sufficient balance during withdrawals
 
-Ensures sufficient balance during withdrawals
+      >Prevents depositing/withdrawing negative or zero amounts
 
-Prevents depositing/withdrawing negative or zero amounts
+7. User Feedback Messages
 
-User Feedback Messages
+      >Displays messages for success/failure of each transaction with current balance.
 
-Displays messages for success/failure of each transaction with current balance.
-
-📂 File Structure
+### 📂 File Structure
 
 ├── BankAccount.java     // BankAccount class with balance and authentication logic
 ├── ATMMachine.java      // ATM interface for user interactions
 ├── README.md            // Project overview
 
-🧠 Core Java Concepts Used
+### 🧠 Core Java Concepts Used
 Classes & Objects
 
 Encapsulation
@@ -142,7 +139,7 @@ Conditionals & Loops
 
 Basic input handling with Scanner
 
-🖥️ Sample Output
+### 🖥️ Sample Output
 
 Welcome to the ATM!
 Enter your account number: 12345
